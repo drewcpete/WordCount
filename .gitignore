@@ -1,2 +1,4 @@
-bin/
-obj/
+WordCounter/bin/
+WordCounter/obj/
+WordCounter.Tests/bin/
+WordCounter.Tests/obj/

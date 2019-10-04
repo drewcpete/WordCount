@@ -8,35 +8,33 @@ namespace WordCounter
     {
         public static void Main()
         {
+            // Take input sentence:
             Console.WriteLine("Please enter a sentence:");
-
             RepeatCounter.SentenceInput = Console.ReadLine();
             string sentenceIn = RepeatCounter.SentenceInput;
+
+            // Take inputed word to check the sentence for:
+            Console.WriteLine("Please enter a word:");            
+            RepeatCounter.WordInput = Console.ReadLine();            
+            string wordIn = RepeatCounter.WordInput;     
+            
+            // Remove punctuation from sentence:
             RepeatCounter.StripPunctuation(sentenceIn);
             sentenceIn = RepeatCounter.SentenceInput;
-
-            Console.WriteLine(sentenceIn);
-                
             
-
+            // Split punctuation left sentence into an array:
             RepeatCounter.SplitSentence(sentenceIn);
             string[] arrayIn = RepeatCounter.SentenceArray;
 
-            
-            Console.WriteLine("Please enter a word:");
-            
-            RepeatCounter.WordInput = Console.ReadLine();
-            
-            string wordIn = RepeatCounter.WordInput;
-            
-            RepeatCounter.ValidateInput(arrayIn, wordIn);
-            
+            // Create list of words from sentence to compare to the inputed word:          
+            RepeatCounter.ValidateInput(arrayIn, wordIn); 
             List<string> newList = RepeatCounter.ListOfWordsToCompare;
-            
-            int result = RepeatCounter.CompareWords(wordIn, newList);
-            
-            Console.WriteLine("There are " + result + " instances of " + wordIn);
 
+            // Count how many listed words are the inputted word:            
+            int result = RepeatCounter.CompareWords(wordIn, newList);
+
+            // Display results  
+            Console.WriteLine("There are " + result + " instances of " + wordIn);
         }
     }
 }

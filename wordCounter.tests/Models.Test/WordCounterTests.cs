@@ -11,7 +11,7 @@ namespace WordCounter.TestTools
         [TestMethod]
         public void StripPunctuation_StripsPunctuationFromInputSentence_SentenceInput()
         {
-            string inputSentence = "hi, how are you?";
+            string inputSentence = "hi, how are you?!";
             string correctString = "hi how are you";
             RepeatCounter.StripPunctuation(inputSentence);
             Assert.AreEqual(correctString, RepeatCounter.SentenceInput);
