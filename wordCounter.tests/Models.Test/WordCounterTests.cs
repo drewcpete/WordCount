@@ -19,7 +19,7 @@ namespace WordCounter.TestTools
             public void CompareWords_CompareCatandCat_2()
             {
                 string correctString = "the cat has a pet cat";
-                result = CompareWords(correctString, "cat")
+                result = CompareWords(correctString, "cat");
                 Assert.AreEqual(2, result);
             }
         
