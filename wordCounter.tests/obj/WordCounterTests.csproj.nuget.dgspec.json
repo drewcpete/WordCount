@@ -1,0 +1,124 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\19714\\Documents\\Epicodus\\WordCounter.Solutions\\wordCounter.tests\\WordCounterTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\19714\\Documents\\Epicodus\\WordCounter.Solutions\\wordCounter.tests\\WordCounterTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\19714\\Documents\\Epicodus\\WordCounter.Solutions\\wordCounter.tests\\WordCounterTests.csproj",
+        "projectName": "WordCounterTests",
+        "projectPath": "C:\\Users\\19714\\Documents\\Epicodus\\WordCounter.Solutions\\wordCounter.tests\\WordCounterTests.csproj",
+        "packagesPath": "C:\\Users\\19714\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\19714\\Documents\\Epicodus\\WordCounter.Solutions\\wordCounter.tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\19714\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\19714\\Documents\\Epicodus\\WordCounter.Solutions\\WordCounter\\WordCounter.csproj": {
+                "projectPath": "C:\\Users\\19714\\Documents\\Epicodus\\WordCounter.Solutions\\WordCounter\\WordCounter.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\19714\\Documents\\Epicodus\\WordCounter.Solutions\\WordCounter\\WordCounter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\19714\\Documents\\Epicodus\\WordCounter.Solutions\\WordCounter\\WordCounter.csproj",
+        "projectName": "WordCounter",
+        "projectPath": "C:\\Users\\19714\\Documents\\Epicodus\\WordCounter.Solutions\\WordCounter\\WordCounter.csproj",
+        "packagesPath": "C:\\Users\\19714\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\19714\\Documents\\Epicodus\\WordCounter.Solutions\\WordCounter\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\19714\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
