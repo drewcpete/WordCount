@@ -26,6 +26,7 @@ namespace WordCounter.TestTools
             string[] result = RepeatCounter.SentenceArray;
             CollectionAssert.AreEqual(correctArray, result);
         }
+
         [TestMethod]        
         public void ValidateInput_ValidateCatInputLength_List()
         {
@@ -46,6 +47,5 @@ namespace WordCounter.TestTools
             int result = RepeatCounter.CompareWords(inputString, inputList);
             Assert.AreEqual(2, result);
         }
-    
     }
 }

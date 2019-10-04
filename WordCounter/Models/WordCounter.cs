@@ -24,11 +24,7 @@ namespace WordCounter
             foreach (char character in charArray)
             {
                 
-                bool result = Char.IsPunctuation(character);
-                // if (character == )
-                // {
-                    
-                // }
+                bool result = Char.IsPunctuation(character);       
                 if (result == false || character == ' ')
                 {
                     charList.Add(character);
@@ -52,7 +48,7 @@ namespace WordCounter
                 {
                     RepeatCounter.ListOfWordsToCompare.Add(word);
                 }
-            }            
+            }
         }
         public static int CompareWords(string inputWord, List<string> wordList)
         {

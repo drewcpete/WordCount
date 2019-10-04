@@ -8,11 +8,13 @@ namespace WordCounter
     {
         public static void Main()
         {
-            Console.WriteLine("Please enter a sentence with no puncutation:");
+            Console.WriteLine("Please enter a sentence:");
 
             RepeatCounter.SentenceInput = Console.ReadLine();
             string sentenceIn = RepeatCounter.SentenceInput;
-            
+            RepeatCounter.StripPunctuation(sentenceIn);
+            sentenceIn = RepeatCounter.SentenceInput;
+
             RepeatCounter.SplitSentence(sentenceIn);
             string[] arrayIn = RepeatCounter.SentenceArray;
 
