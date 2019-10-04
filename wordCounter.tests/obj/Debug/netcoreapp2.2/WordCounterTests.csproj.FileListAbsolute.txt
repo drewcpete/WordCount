@@ -1,0 +1,17 @@
+C:\Users\19714\Documents\Epicodus\WordCounter.Solutions\wordcounter.tests\obj\Debug\netcoreapp2.2\WordCounterTests.csprojAssemblyReference.cache
+C:\Users\19714\Documents\Epicodus\WordCounter.Solutions\wordcounter.tests\obj\Debug\netcoreapp2.2\WordCounterTests.csproj.CoreCompileInputs.cache
+C:\Users\19714\Documents\Epicodus\WordCounter.Solutions\wordcounter.tests\obj\Debug\netcoreapp2.2\WordCounterTests.AssemblyInfoInputs.cache
+C:\Users\19714\Documents\Epicodus\WordCounter.Solutions\wordcounter.tests\obj\Debug\netcoreapp2.2\WordCounterTests.AssemblyInfo.cs
+C:\Users\19714\Documents\Epicodus\WordCounter.Solutions\wordcounter.tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\19714\Documents\Epicodus\WordCounter.Solutions\wordcounter.tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\19714\Documents\Epicodus\WordCounter.Solutions\wordcounter.tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\19714\Documents\Epicodus\WordCounter.Solutions\wordcounter.tests\bin\Debug\netcoreapp2.2\WordCounterTests.deps.json
+C:\Users\19714\Documents\Epicodus\WordCounter.Solutions\wordcounter.tests\bin\Debug\netcoreapp2.2\WordCounterTests.runtimeconfig.json
+C:\Users\19714\Documents\Epicodus\WordCounter.Solutions\wordcounter.tests\bin\Debug\netcoreapp2.2\WordCounterTests.runtimeconfig.dev.json
+C:\Users\19714\Documents\Epicodus\WordCounter.Solutions\wordcounter.tests\bin\Debug\netcoreapp2.2\WordCounterTests.dll
+C:\Users\19714\Documents\Epicodus\WordCounter.Solutions\wordcounter.tests\bin\Debug\netcoreapp2.2\WordCounterTests.pdb
+C:\Users\19714\Documents\Epicodus\WordCounter.Solutions\wordcounter.tests\bin\Debug\netcoreapp2.2\WordCounter.dll
+C:\Users\19714\Documents\Epicodus\WordCounter.Solutions\wordcounter.tests\bin\Debug\netcoreapp2.2\WordCounter.pdb
+C:\Users\19714\Documents\Epicodus\WordCounter.Solutions\wordcounter.tests\obj\Debug\netcoreapp2.2\WordCounterTests.csproj.CopyComplete
+C:\Users\19714\Documents\Epicodus\WordCounter.Solutions\wordcounter.tests\obj\Debug\netcoreapp2.2\WordCounterTests.dll
+C:\Users\19714\Documents\Epicodus\WordCounter.Solutions\wordcounter.tests\obj\Debug\netcoreapp2.2\WordCounterTests.pdb

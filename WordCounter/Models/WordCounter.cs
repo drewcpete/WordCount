@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 
 namespace WordCounter
 {
@@ -6,30 +7,28 @@ namespace WordCounter
     {
         public static string WordInput { get; set; }
         public static string SentenceInput { get; set; }
-        public static char[] Punctuation { get; set; }
+        // public static var Punctuation  { get; set; }        
         public static string[] SentenceArray { get; set; }
-
-        public static List<string> ListOfWords = new List<string>{};
-
+        public static List<string> ListOfWordsToCompare = new List<string> {};
         public RepeatCounter(string inputWord, string inputSentence)
         {
             WordInput = inputWord;
             SentenceInput = inputSentence;
-            Punctuation = SentenceInput.Where(Char.IsPunctuation).Distinct().ToArray();
-            SentenceArray = WordInput.Split().Select(x => x.Trim(Punctuation));
+            SentenceArray = SentenceInput.Split(' ');
         }
 
-        public static List<string> ValidateInput(string[] sentence)
+        public static List<string> ValidateInput(string[] sentence, string input)
         {
-            int letterCount = RepeatCounter.WordInput.Length();
+            int letterCount = input.Length;
             
             foreach (string word in sentence)
             {
                 if (word.Length == letterCount)
                 {
-                    ListOfWords.Add(word);
+                    ListOfWordsToCompare.Add(word);
                 }
             }
+            return ListOfWordsToCompare;
         }
         public static int CompareWords(string inputWord, List<string> wordList)
         {

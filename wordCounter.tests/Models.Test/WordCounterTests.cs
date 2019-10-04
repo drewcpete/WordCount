@@ -1,4 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Collections.Generic;
 using WordCounter;
 
 namespace WordCounter.TestTools
@@ -7,19 +8,22 @@ namespace WordCounter.TestTools
     public class WordCounterTests
     {
         [TestMethod]        
-            public void ValidateInput_ValidateCatInputLength_True()
+            public void ValidateInput_ValidateCatInputLength_List()
             {
-                string correctString = "cat";
-                bool result = false;
-                result = ValidateInput(correctString, "hat");
-                Assert.IsTrue(result);
+                string input = "cat";
+                List<string> correctList = new List<string> {"cat"};
+                List<string> inputList = new List<string> {};
+                string[] inputArray = { "cat", "kitty"};    
+                inputList = RepeatCounter.ValidateInput(inputArray, input);
+                CollectionAssert.AreEqual(correctList, inputList);
             }
         
         [TestMethod]        
             public void CompareWords_CompareCatandCat_2()
             {
-                string correctString = "the cat has a pet cat";
-                result = CompareWords(correctString, "cat");
+                List<string> inputList = new List<string> {"the", "cat", "has", "cat", "hat"};
+                string inputString = "cat";
+                int result = RepeatCounter.CompareWords(inputString, inputList);
                 Assert.AreEqual(2, result);
             }
         

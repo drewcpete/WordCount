@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\19714\\Documents\\Epicodus\\WordCounter.Solutions\\wordCounter.tests\\WordCounterTests.csproj": {}
+    "C:\\Users\\19714\\Documents\\Epicodus\\WordCounter.Solutions\\wordcounter.tests\\WordCounterTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\19714\\Documents\\Epicodus\\WordCounter.Solutions\\wordCounter.tests\\WordCounterTests.csproj": {
+    "C:\\Users\\19714\\Documents\\Epicodus\\WordCounter.Solutions\\wordcounter.tests\\WordCounterTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\19714\\Documents\\Epicodus\\WordCounter.Solutions\\wordCounter.tests\\WordCounterTests.csproj",
+        "projectUniqueName": "C:\\Users\\19714\\Documents\\Epicodus\\WordCounter.Solutions\\wordcounter.tests\\WordCounterTests.csproj",
         "projectName": "WordCounterTests",
-        "projectPath": "C:\\Users\\19714\\Documents\\Epicodus\\WordCounter.Solutions\\wordCounter.tests\\WordCounterTests.csproj",
+        "projectPath": "C:\\Users\\19714\\Documents\\Epicodus\\WordCounter.Solutions\\wordcounter.tests\\WordCounterTests.csproj",
         "packagesPath": "C:\\Users\\19714\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\19714\\Documents\\Epicodus\\WordCounter.Solutions\\wordCounter.tests\\obj\\",
+        "outputPath": "C:\\Users\\19714\\Documents\\Epicodus\\WordCounter.Solutions\\wordcounter.tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
