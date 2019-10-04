@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using System;
 
 namespace WordCounter
 {
@@ -15,6 +16,26 @@ namespace WordCounter
             WordInput = inputWord;
             SentenceInput = inputSentence;
             
+        }
+        public static void StripPunctuation(string sentenceIn)
+        {
+            List<char> charList = new List<char>{};
+            char[] charArray = sentenceIn.ToCharArray();
+            foreach (char character in charArray)
+            {
+                
+                bool result = Char.IsPunctuation(character);
+                // if (character == )
+                // {
+                    
+                // }
+                if (result == false || character == ' ')
+                {
+                    charList.Add(character);
+                }
+            }
+            char[] newArray = charList.ToArray();
+            SentenceInput = new string(newArray);            
         }
 
         public static void SplitSentence(string sentenceIn)
