@@ -14,10 +14,14 @@ namespace WordCounter
         {
             WordInput = inputWord;
             SentenceInput = inputSentence;
-            SentenceArray = SentenceInput.Split(' ');
+            
         }
 
-        public static List<string> ValidateInput(string[] sentence, string input)
+        public static void SplitSentence(string sentenceIn)
+        {
+            SentenceArray = sentenceIn.Split(" ");
+        }
+        public static void ValidateInput(string[] sentence, string input)
         {
             int letterCount = input.Length;
             
@@ -25,10 +29,9 @@ namespace WordCounter
             {
                 if (word.Length == letterCount)
                 {
-                    ListOfWordsToCompare.Add(word);
+                    RepeatCounter.ListOfWordsToCompare.Add(word);
                 }
-            }
-            return ListOfWordsToCompare;
+            }            
         }
         public static int CompareWords(string inputWord, List<string> wordList)
         {

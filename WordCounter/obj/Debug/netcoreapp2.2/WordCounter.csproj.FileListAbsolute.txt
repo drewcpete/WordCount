@@ -7,3 +7,5 @@ C:\Users\19714\Documents\Epicodus\WordCounter.Solutions\WordCounter\bin\Debug\ne
 C:\Users\19714\Documents\Epicodus\WordCounter.Solutions\WordCounter\bin\Debug\netcoreapp2.2\WordCounter.pdb
 C:\Users\19714\Documents\Epicodus\WordCounter.Solutions\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.dll
 C:\Users\19714\Documents\Epicodus\WordCounter.Solutions\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.pdb
+C:\users\19714\documents\epicodus\wordcounter.solutions\wordcounter\bin\Debug\netcoreapp2.2\WordCounter.runtimeconfig.json
+C:\users\19714\documents\epicodus\wordcounter.solutions\wordcounter\bin\Debug\netcoreapp2.2\WordCounter.runtimeconfig.dev.json

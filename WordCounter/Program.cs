@@ -9,14 +9,28 @@ namespace WordCounter
         public static void Main()
         {
             Console.WriteLine("Please enter a sentence with no puncutation:");
+
             RepeatCounter.SentenceInput = Console.ReadLine();
-            Console.WriteLine("Please enter a word:");
-            RepeatCounter.WordInput = Console.ReadLine();
-            string wordIn = RepeatCounter.WordInput;
+            string sentenceIn = RepeatCounter.SentenceInput;
+            
+            RepeatCounter.SplitSentence(sentenceIn);
             string[] arrayIn = RepeatCounter.SentenceArray;
-            List<string> newList = RepeatCounter.ValidateInput(arrayIn, wordIn);
-            int result = RepeatCounter.CompareWords(wordIn, RepeatCounter.ListOfWordsToCompare);
-            Console.WriteLine("There are " + result + "instances of " + wordIn);
+
+            Console.WriteLine(arrayIn[0] + " " + arrayIn[1]);
+            
+            Console.WriteLine("Please enter a word:");
+            
+            RepeatCounter.WordInput = Console.ReadLine();
+            
+            string wordIn = RepeatCounter.WordInput;
+            
+            RepeatCounter.ValidateInput(arrayIn, wordIn);
+            
+            List<string> newList = RepeatCounter.ListOfWordsToCompare;
+            
+            int result = RepeatCounter.CompareWords(wordIn, newList);
+            
+            Console.WriteLine("There are " + result + " instances of " + wordIn);
 
         }
     }

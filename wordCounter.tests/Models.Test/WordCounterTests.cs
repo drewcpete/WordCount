@@ -10,11 +10,12 @@ namespace WordCounter.TestTools
         [TestMethod]        
             public void ValidateInput_ValidateCatInputLength_List()
             {
-                string input = "cat";
+                string inputString = "cat";
                 List<string> correctList = new List<string> {"cat"};
                 List<string> inputList = new List<string> {};
                 string[] inputArray = { "cat", "kitty"};    
-                inputList = RepeatCounter.ValidateInput(inputArray, input);
+                RepeatCounter.ValidateInput(inputArray, inputString);
+                inputList = RepeatCounter.ListOfWordsToCompare;
                 CollectionAssert.AreEqual(correctList, inputList);
             }
         
