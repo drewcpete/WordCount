@@ -17,6 +17,7 @@ namespace WordCounter
             SentenceInput = inputSentence;
             
         }
+        // method for splitting sentence into a char array and removing all punctuation char's except " ".   
         public static void StripPunctuation(string sentenceIn)
         {
             List<char> charList = new List<char>{};

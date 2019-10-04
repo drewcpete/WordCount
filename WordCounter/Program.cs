@@ -15,10 +15,13 @@ namespace WordCounter
             RepeatCounter.StripPunctuation(sentenceIn);
             sentenceIn = RepeatCounter.SentenceInput;
 
+            Console.WriteLine(sentenceIn);
+                
+            
+
             RepeatCounter.SplitSentence(sentenceIn);
             string[] arrayIn = RepeatCounter.SentenceArray;
 
-            Console.WriteLine(arrayIn[0] + " " + arrayIn[1]);
             
             Console.WriteLine("Please enter a word:");
             
